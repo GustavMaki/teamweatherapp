@@ -1,8 +1,52 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #B5D3FF;
+  color: #fff;
 }
 
 a {
   color: #00B7FF;
+}
+
+.container {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.weather{
+  text-align: center;
+  margin:0 auto;
+  background: #ffffff;
+  width: 20%;
+  border-radius: 10px;
+  color: #001433;
+}
+
+#txtCity{
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  width: 20%;
+  background: #ffffff;
+  border-radius: 5px;
+  border-color:white;
+  padding:0.5%;
+  margin-bottom: 1%;
+}
+
+#txtButton{
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  width: 10%;
+  padding:0.3%;
+  border-radius: 5px;
+  background: #001F4D;
+  color: #fff;
+}
+
+#result{
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+#alert{
+  color: red;
 }
